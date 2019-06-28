@@ -8,6 +8,7 @@ Being assigned with a task of making certificates for students who completed the
 It is required that you have python 3.x and pip (specifically pip3) installed on your system
 
 # Dependencies:
+- **os**
 - **io**
 - **textwrap**
 - **PyPDF2**

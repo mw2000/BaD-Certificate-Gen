@@ -1,3 +1,4 @@
+import os
 import io
 import textwrap
 
@@ -8,6 +9,9 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.colors import HexColor
+
+# Creates the 'Generated' directory
+os.mkdir('Generated')
 
 # Reads names from names.txt
 def getNames():
